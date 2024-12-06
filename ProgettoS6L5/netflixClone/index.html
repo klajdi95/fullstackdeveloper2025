@@ -7,10 +7,76 @@
     <title>NetflixClone</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <img src="assets/images/netflix_logo.png" alt="netflix_logo" width="50px" height="50px">
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link  text-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-light" href="show">TV Show</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-light" href="movies">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="recently">Recently Added</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="list">My List</a>
+                        </li>
+                        <div class="d-flex">
+                            <div class="d-inline-block">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="color-white"
+                                    class="bi bi-search p-1" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="color-white"
+                                    class="bi bi-bank p-1" viewBox="0 0 16 16">
+                                    <path
+                                        d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.5.5 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89zM3.777 3h8.447L8 1zM2 6v7h1V6zm2 0v7h2.5V6zm3.5 0v7h1V6zm2 0v7H12V6zM13 6v7h1V6zm2-1V4H1v1zm-.39 9H1.39l-.25 1h13.72z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="color-white"
+                                    class="bi bi-bell-fill p-1" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901" />
+                                </svg>
+                            </div>
+
+                            <li class="nav-item dropdown">
+
+
+                                <a class="nav-link dropdown-toggle text-light" href="role" role="button"
+                                    data-bs-toggle="dropdown"><img src="assets/images/avatar.png" alt="avatar" width="40px" height="40px">
+                                    
+                                </a>
+                                <ul class="dropdown-menu bg-black text-end">
+                                    <li><a class="dropdown-item bg-dark text-light" href="#">Manage Profil</a></li>
+                                    <li><a class="dropdown-item" href="#">Account</a></li>
+                                    <li><a class="dropdown-item" href="help center">Help center</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="SignOut">Sign out Netflix</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                    </ul>
+
+
+                </div>
+            </div>
+        </nav>
+    </header>
 
 
 
